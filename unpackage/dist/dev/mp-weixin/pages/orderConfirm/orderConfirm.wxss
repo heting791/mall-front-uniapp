@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.confirm-content {
+  background-color: whitesmoke;
+  padding-top: 2px;
+}
+.confirm-content .address-container {
+  width: 100%;
+  height: 100px;
+  margin: 5px 0;
+  border-radius: 15px;
+  background-color: white;
+}
+.confirm-content .address-container .address-container-inner {
+  width: 95%;
+  margin: 10px auto;
+}
+.confirm-content .address-container .address-container-inner .address-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.confirm-content .address-container .address-container-inner .address-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  margin: 0 5px;
+  width: 82%;
+}
+.confirm-content .address-container .address-container-inner .address-text .text-province {
+  font-weight: bolder;
+}
+.confirm-content .address-container .address-container-inner .address-text .text-address-details {
+  font-weight: bolder;
+}
+.confirm-content .address-container .address-container-inner .address-text .text-name {
+  font-size: 13px;
+  color: gray;
+}
+.confirm-content .address-container .address-container-inner .address-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+.confirm-content .order-container {
+  margin-top: 18px;
+}
+.confirm-content .order-container .order-list {
+  width: 100%;
+  margin: 0 auto;
+}
+.confirm-content .order-container .order-list .order-item {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 7px 0;
+  border-radius: 15px;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner {
+  width: 97%;
+  margin: 0 auto;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner .product-info {
+  margin-bottom: 5px;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner .product-info .info-img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner .product-info .info-img image {
+  width: 100%;
+  height: 100%;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner .product-info .info-text {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 75px);
+  margin-left: 5px;
+  font-size: 14px;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner .product-info .info-text .text-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner .product-info .info-text .text-option {
+  color: gray;
+  font-size: 13px;
+  margin: 3px 0;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner .product-info .info-text .text-bottom .bottom-price {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  color: red;
+}
+.confirm-content .order-container .order-list .order-item .order-item-inner .product-info .info-text .text-bottom .bottom-count {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 15px;
+  padding: 0 5px;
+}
+.confirm-content .order-container .confirm-popup-container .popup-msg .msg-content .popup-title {
+  width: 98%;
+  margin: 5px auto;
+}
+.confirm-content .order-container .confirm-popup-container .popup-msg .msg-content .popup-title .title {
+  display: inline-block;
+  width: 95%;
+  text-align: center;
+}
+.confirm-content .order-container .confirm-popup-container .popup-msg .msg-content .popup-title .popup-close {
+  display: inline-block;
+  vertical-align: top;
+}
+.confirm-content .order-container .confirm-popup-container .popup-msg .msg-content .popup-content .content-main textarea {
+  width: 95%;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 5px;
+}
+.confirm-content .order-container .confirm-popup-container .popup-msg .msg-content .popup-content .content-submit {
+  width: 90%;
+  margin: 0 auto;
+}
+.confirm-content .confirm-bottom {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
+.confirm-content .confirm-bottom .confirm-bottom-inner {
+  width: 97%;
+  margin: 0 auto;
+}
+.confirm-content .confirm-bottom .confirm-bottom-inner .bottom-count {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.confirm-content .confirm-bottom .confirm-bottom-inner .bottom-count .count {
+  color: red;
+  margin: 0 3px;
+}
+.confirm-content .confirm-bottom .confirm-bottom-inner .bottom-right {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+}
+.confirm-content .confirm-bottom .confirm-bottom-inner .bottom-right .bottom-total {
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.confirm-content .confirm-bottom .confirm-bottom-inner .bottom-right .bottom-total .total {
+  font-size: 17px;
+  font-weight: bolder;
+  color: red;
+}
+.confirm-content .confirm-bottom .confirm-bottom-inner .bottom-right .bottom-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+.confirm-content .confirm-bottom .confirm-bottom-inner .bottom-right .bottom-button .u-button {
+  width: 105px;
+}
+

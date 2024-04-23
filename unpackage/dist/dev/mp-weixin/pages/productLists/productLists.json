@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "top-search": "/components/topSearch/topSearch",
+    "pro-list": "/components/proList/proList",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

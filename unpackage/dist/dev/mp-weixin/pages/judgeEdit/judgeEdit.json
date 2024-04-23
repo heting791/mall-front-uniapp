@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发表评价",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "pro-info": "/components/proInfo/proInfo",
+    "u-rate": "/node-modules/uview-ui/components/u-rate/u-rate",
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

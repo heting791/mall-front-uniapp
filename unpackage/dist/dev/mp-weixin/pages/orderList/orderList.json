@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "pro-info": "/components/proInfo/proInfo",
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}
